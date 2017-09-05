@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Category">
+        <menu>
+            <item
+                android:id="@+id/nav_add"
+                android:icon="@drawable/ic_action_add"
+                android:title="Add Category" />
+            <item
+                android:id="@+id/nav_edit"
+                android:icon="@drawable/ic_action_edit"
+                android:title="Edit Category" />
+            <item
+                android:id="@+id/nav_delete"
+                android:icon="@drawable/ic_action_delete"
+                android:title="Delete Category"/>
+        </menu>
+    </item>
+
+    <item android:title="Cashflow">
+        <menu>
+            <item
+                android:id="@+id/nav_income"
+                android:icon="@drawable/ic_action_cashflow"
+                android:title="View Income"/>
+            <item
+                android:id="@+id/nav_expenses"
+                android:icon="@drawable/ic_action_cashflow"
+                android:title="View Expenses"/>
+        </menu>
+    </item>
+
+    <item android:title="App">
+        <menu>
+            <item
+                android:id="@+id/nav_refresh"
+                android:icon="@drawable/ic_action_refresh"
+                android:title="Refresh"/>
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_action_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

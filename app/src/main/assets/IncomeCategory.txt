@@ -1,0 +1,4 @@
+Salary
+Capital Gain
+Dividend
+Allowance
